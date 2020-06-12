@@ -1,0 +1,515 @@
+
+
+@media(min-width: 320px) and (max-width:500px)  {
+
+
+    .header {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 70vh;
+    }
+
+    nav i {
+        width: 20px;
+        font-size: 1.8rem;
+        left: 1.5rem;
+        top: 1.5rem;
+        padding: 0.4rem;
+    }
+
+    nav p {
+        font-size: 1.3rem;
+        padding-top: 1.2rem;
+        padding-left: 4.2rem;
+
+    }
+
+    nav p::before {
+        font-size: 1.3rem;
+    }
+
+    nav p::after {
+        font-size: 0.55rem;
+    }
+
+    nav ul {
+
+        background-color: rgb(185, 162, 162);
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: -100%;
+        z-index: 2;
+        text-align: center;
+        transition: 0.7s all;
+
+    }
+
+    nav ul li {
+        display: block;
+        padding: 2.8rem;
+    }
+
+    #box:checked~nav ul {
+        right: 0;
+    }
+
+    .box-btn {
+        display: inline-block;
+        font-size: 1.3rem;
+        top: 1.5rem;
+    }
+
+    .middle p {
+        font-size: 1.5rem;
+        top: 15rem;
+        left: .8rem;
+    }
+
+    .middle p1 {
+
+        font-size: 1.3rem;
+        top: 17rem;
+        left: .8rem;
+
+    }
+
+    .middle p1::after {
+        top: 2.2rem;
+    }
+
+
+    .description-box-main {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 195vh;
+
+    }
+
+    .description-box {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .description p {
+        font-size: 1.8rem;
+        padding-bottom: 2.5rem;
+        font-variant: small-caps;
+        letter-spacing: .05rem;
+    }
+
+    .description p1 {
+        font-size: .95rem;
+
+    }
+
+    .details-box {
+        position: absolute;
+        top: 25rem;
+        right: 0rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+        border-top: .2rem outset orangered;
+        border-bottom: .2rem outset orangered;
+
+    }
+
+    .details {
+        width: 20rem;
+        height: 32rem;
+
+    }
+
+    .details p {
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+        width: 15.5rem;
+    }
+
+    .details input {
+        display: block;
+        padding: 1rem;
+        width: 15.5rem;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .details textarea {
+        display: block;
+        padding: 1rem;
+        width: 15.5rem;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .details button {
+
+        color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 8rem;
+        margin-left: 0;
+    }
+
+
+    /*  Middle part start */
+    /*  Service part start */
+
+    .services-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: rgb(247, 135, 8);
+        width: 100%;
+        height: 352vh;
+    }
+
+    .service-heading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10vh;
+        background-color: rgb(247, 135, 8);
+    }
+    
+    .service-heading p {
+        font-size: 2rem;
+        padding-left: 5rem;
+        padding-top: .8rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: .1rem;
+        
+    }
+    
+    .services {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        display: grid;
+        grid-template-rows: repeat(6, 15rem);
+        grid-template-columns: 100%;
+    }
+
+    /* services part end */
+    /* information part start */
+
+    .information-box-main {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 240vh;
+        background-color: rgba(255, 255, 255, 0.863);
+    }
+
+    .information-box {
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+
+    }
+
+    .information-heading p {
+        position: absolute;
+        top: 3rem;
+        left: 0.2rem;
+        width: 20rem;
+        font-size: 1.5rem;
+        padding: .5rem;
+        transition: all 1s;
+    }
+
+    .information-heading p::after {
+        display: block;
+        content: ' ';
+        padding-bottom: 1rem;
+        padding-left: 4rem;
+        width: 2rem;
+        margin-left: 6rem;
+    }
+
+    .information-image {
+        position: absolute;
+        top: 14rem;
+        left: 1.4rem;
+        width: 17rem;
+        height: 16rem;
+        background:
+            repeating-linear-gradient(rgba(241, 193, 158, 0.356),
+                rgba(0, 0, 0, 0.5)),
+            url('hritikcar3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 260px;
+        box-shadow: 2px 2px 15px rgba(17, 16, 16, 0.74);
+        border-radius: 0%;
+        transition: all 1s;
+    }
+
+    .information-image:hover {
+        transform: rotate(360deg);
+        height: 17rem;
+        width: 17rem;
+        left: 1.7rem;
+        top: 15rem;
+        background-size: 100% 272px;
+        border-radius: 50%;
+    }
+
+    .information-data {
+        position: absolute;
+        top: 36rem;
+        left: 0;
+        width: 20rem;
+        height: 40rem;
+    }
+
+    .information-data ul li {
+        display: inline-flex;
+        padding-left: .9rem;
+    }
+
+    .information-data ul a {
+        font-size: .9rem;
+        border-bottom: 2px solid rgb(245, 245, 245);
+    }
+
+    .information-data ul a:hover {
+        border-bottom: 2px solid rgb(255, 123, 0);
+    }
+
+    .info-content p1 {
+        position: absolute;
+        left: 1rem;
+        top: 4rem;
+        font-size: 1.6rem;
+    }
+
+    .info-content p1::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 1rem;
+        width: 45px;
+        margin: .5rem 0 0rem;
+
+    }
+
+    .info-content p {
+        font-size: 1rem;
+        position: absolute;
+        width: 18.3rem;
+        left: 1rem;
+        top: 9rem;
+        letter-spacing: .08rem;
+        word-spacing: .4rem;
+
+    }
+
+
+    /* Information part end  */
+    /* Projects part start */
+
+    .project-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 198vh;
+        background-color: rgba(226, 120, 21, 0.918);
+
+    }
+
+    
+    .project {
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 100%;
+        height: 170vh;
+        background-color: rgb(240, 231, 222);
+        display: grid;
+        grid-template-rows: repeat(6, 8rem);
+        grid-template-columns: repeat(1, 17rem);
+        grid-gap: 25px;
+        justify-content: center;
+        padding: 2rem;
+
+    }
+    .project img {
+        width: 17rem;
+        height: 8rem;
+        border-radius: .5rem;
+    }
+
+    .project-box p {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        padding-top: .5rem;
+
+    }
+
+
+    /* Projects part end */
+
+    /* Footer part start */
+
+    .footer-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 129.5vh;
+    }
+
+    .footer {
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 98vh;
+
+    }
+
+    .icons {
+        width: 22rem;
+        height: 7rem;
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+    }
+
+    .icons p {
+        font-size: 2.4rem;
+        color: rgb(255, 60, 0);
+        font-variant: small-caps;
+        padding: 1rem;
+        letter-spacing: .1rem;
+        font-weight: 400;
+    }
+
+    .icons p::after {
+        content: 'Honest Reliable Devoted !!!';
+        color: rgb(252, 183, 151);
+        font-size: .8rem;
+        display: block;
+        text-align: left;
+        letter-spacing: .1rem;
+        font-weight: 300;
+    padding-left: 5rem;
+    padding-top: .3rem;
+    }
+
+    .link {
+
+        width: 8rem;
+        height: 14rem;
+        position: absolute;
+        top: 9rem;
+        left: 1rem;
+
+    }
+
+    .link p1 {
+        font-size: 1.2rem;
+    }
+
+    .link ul li {
+        margin-left: 1rem;
+        padding: .5rem;
+    }
+
+    .link ul li a {
+        font-size: .8rem;
+
+    }
+
+    .contact {
+
+        width: 8rem;
+        height: 10rem;
+        position: absolute;
+        top: 9rem;
+        left: 11.7rem;
+    }
+
+    .contact p2 {
+        font-size: 1.2rem;
+    }
+
+    .contact ul li {
+        padding: .5rem;
+        margin-left: 1rem;
+    }
+
+    .contact ul li a {
+        font-size: .8rem;
+        padding-top: 1rem;
+    }
+
+    .social-media {
+
+        width: 18rem;
+        height: 2rem;
+        position: absolute;
+        top: 25rem;
+        left: 1rem;
+    }
+
+    .social-media ul li {
+        padding-left: 2rem;
+
+    }
+
+    .social-media ul li a {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        position: absolute;
+        top: 27rem;
+        left: 1.5rem;
+        width: 17rem;
+    }
+
+    .copyright p3 {
+        font-size: .8rem;
+        color: rgba(255, 255, 255, 0.658);
+        letter-spacing: .1rem;
+        padding-left: 2rem;
+        font-weight: 400;
+    }
+
+    .copyright p4 {
+        font-size: .9rem;
+        color: rgb(77, 70, 70);
+        letter-spacing: .1rem;
+        padding-left: 5rem;
+    }
+    .copyright p4:hover{
+        color: rgba(219, 209, 209, 0.808);
+    }
+
+    .copyright i {
+        color: rgb(255, 0, 0);
+    }
+
+
+}
